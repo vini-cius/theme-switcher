@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 600px;
-  height: 100%;
+  max-width: 700px;
   margin: 0 auto;
 
   table {
@@ -11,7 +10,7 @@ export const Container = styled.div`
     height: 100%;
     text-align: center;
     border-collapse: collapse;
-    margin: 20px;
+    margin-top: 20px;
   }
 
   table td, table th {
